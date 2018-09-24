@@ -9,4 +9,4 @@ function setThisWithCall(fn){
   return
 }
 
-function (){ return {thisValue: this, arguments: Array.from(arguments)} }
+// function (){ return {thisValue: this, arguments: Array.from(arguments)} }
