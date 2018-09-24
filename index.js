@@ -12,8 +12,8 @@ function setThisWithApply(fn, thisValue, args){
 }
 
 function returnNewFunctionOf(functionToBeCopied, thisValue){
-  let copy = functionToBeCopied;
-  
+  let copy = functionToBeCopied.bind(thisValue);
+  debugger
   return copy;
 }
 
