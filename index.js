@@ -3,8 +3,8 @@ function justInvoke(fn){
   return fn();
 }
 
-function setThisWithCall(fn,thisValue, arg){
-  let result = fn.call(this, fn.arguments);
+function setThisWithCall(fn, thisValue, arg){
+  let result = fn.call(thisValue, arg);
   debugger
   return
 }
