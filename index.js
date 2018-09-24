@@ -5,4 +5,5 @@ function justInvoke(fn){
 
 function setThisWithCall(fn){
   debugger
+  return
 }
